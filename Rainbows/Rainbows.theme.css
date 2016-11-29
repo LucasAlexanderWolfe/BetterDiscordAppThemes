@@ -1,0 +1,28 @@
+//META{"name":"Rainbows","description":"Can you Rainbow","author":"Lucas Alexander Wolfe","version":"0.1"}*//
+
+/* Background */
+.app {
+    background-image: linear-gradient(270deg, #ff0000, #ffa000, #fffa00, #5cff00, #00ffb2, #00c5ff, #0600ff, #9800ff, #ff00d4, #ff0000);
+    background-size: cover;
+	
+	
+-webkit-animation: AnimationName 60s ease infinite;
+-moz-animation: AnimationName 60s ease infinite;
+animation: AnimationName 60s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+}
